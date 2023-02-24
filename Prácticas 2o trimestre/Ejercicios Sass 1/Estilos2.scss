@@ -1,0 +1,63 @@
+// Definir los colores para las columnas pares e impares
+$color-par: #f2f2f2;
+$color-impar: #fff;
+
+// Definir los estilos para las celdas de la tabla
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+
+    // Iterar sobre las columnas de la tabla usando un @for
+    @for $i from 1 through 10 {
+      // Usar el color correspondiente según si la columna es par o impar
+      @if $i % 2 == 0 {
+        &:nth-child(#{$i}) {
+          background-color: $color-par;
+        }
+      } @else {
+        &:nth-child(#{$i}) {
+          background-color: $color-impar;
+        }
+      }
+    }
+  }
+}
+
+
+// Definir un mapa para los estilos de los botones
+$botones: (
+    error: red,
+    warning: yellow,
+    accepted: green,
+    normal: #007bff
+);
+
+// Aplicar los estilos a los botones
+@each $nombre,
+$color in $botones {
+    .#{$nombre} {
+        background-color: $color;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-right: 10px;
+    }
+}
+
+// Definir la estructura de maquetación
+$columnas: 8;
+$ancho-col: 100% / $columnas;
+
+@for $i from 1 through $columnas {
+    .col#{$i} {
+        width: $ancho-col;
+        height: 100px;
+        float: left;
+        border: 1px solid black;
+    }
+}

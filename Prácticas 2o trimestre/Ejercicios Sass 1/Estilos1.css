@@ -1,0 +1,56 @@
+body {
+  background-color: #F7F7F7;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.borde {
+  border: 1px solid #CCCCCC;
+}
+
+nav {
+  background-color: #333333;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+figure {
+  margin: 0;
+}
+figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+figure figcaption {
+  font-style: italic;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=Estilos1.css.map */

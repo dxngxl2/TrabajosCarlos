@@ -1,0 +1,132 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+table td:nth-child(1) {
+  background-color: #fff;
+}
+table td:nth-child(2) {
+  background-color: #f2f2f2;
+}
+table td:nth-child(3) {
+  background-color: #fff;
+}
+table td:nth-child(4) {
+  background-color: #f2f2f2;
+}
+table td:nth-child(5) {
+  background-color: #fff;
+}
+table td:nth-child(6) {
+  background-color: #f2f2f2;
+}
+table td:nth-child(7) {
+  background-color: #fff;
+}
+table td:nth-child(8) {
+  background-color: #f2f2f2;
+}
+table td:nth-child(9) {
+  background-color: #fff;
+}
+table td:nth-child(10) {
+  background-color: #f2f2f2;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.warning {
+  background-color: yellow;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.accepted {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.normal {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.col1 {
+  width: 12.5%;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.col2 {
+  width: 12.5%;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.col3 {
+  width: 12.5%;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.col4 {
+  width: 12.5%;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.col5 {
+  width: 12.5%;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.col6 {
+  width: 12.5%;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.col7 {
+  width: 12.5%;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+.col8 {
+  width: 12.5%;
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=Estilos2.css.map */
