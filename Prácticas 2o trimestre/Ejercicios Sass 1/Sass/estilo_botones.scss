@@ -1,0 +1,20 @@
+// Definir un mapa para los estilos de los botones
+$botones: (
+    error: red,
+    warning: yellow,
+    accepted: green,
+    normal: #007bff
+);
+
+// Aplicar los estilos a los botones
+@each $nombre,
+$color in $botones {
+    .#{$nombre} {
+        background-color: $color;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-right: 10px;
+    }
+}

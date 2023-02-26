@@ -1,0 +1,12 @@
+// Definir la estructura de maquetación
+$columnas: 8;
+$ancho-col: 100% / $columnas;
+
+@for $i from 1 through $columnas {
+    .col#{$i} {
+        width: $ancho-col;
+        height: 100px;
+        float: left;
+        border: 1px solid black;
+    }
+}

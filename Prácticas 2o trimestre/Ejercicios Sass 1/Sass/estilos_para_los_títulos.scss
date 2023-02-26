@@ -1,0 +1,13 @@
+// Estilos para los títulos
+h1, h2, h3, h4, h5, h6 {
+    color: $color-titulo;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: $tamano-titulo;
+  }
+  
+  h2 {
+    font-size: $tamano-subtitulo;
+  }

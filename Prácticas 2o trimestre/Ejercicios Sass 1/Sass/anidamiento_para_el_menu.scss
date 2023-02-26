@@ -1,0 +1,24 @@
+// Anidamiento para el menú
+nav {
+    background-color: $color-menu-fondo;
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin-right: 20px;
+
+            a {
+                color: $color-menu-enlace;
+                font-size: $tamano-menu;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
